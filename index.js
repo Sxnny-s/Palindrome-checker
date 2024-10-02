@@ -25,6 +25,14 @@ function check() {
     input.value = ""
 }
 
+
+// enter key
+document.addEventListener('keydown', function(e) {
+    if (e.key === "Enter") { 
+        check()
+    }
+})
+
 // end if palindrome checker
 // adding color switcher to app
 
